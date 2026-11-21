@@ -1,0 +1,22 @@
+{
+  "baseline/single": "evidence/runs/baseline/single/20261121-125726-010869",
+  "baseline/overlap": "evidence/runs/baseline/overlap/20261121-125737-521856",
+  "baseline/stop": "evidence/runs/baseline/stop/20261121-125750-496249",
+  "baseline/lighting": "evidence/runs/baseline/lighting/20261121-125801-675568",
+  "slow_learning/single": "evidence/runs/slow_learning/single/20261121-125813-762938",
+  "slow_learning/overlap": "evidence/runs/slow_learning/overlap/20261121-125822-482673",
+  "slow_learning/stop": "evidence/runs/slow_learning/stop/20261121-125831-834330",
+  "slow_learning/lighting": "evidence/runs/slow_learning/lighting/20261121-125839-834806",
+  "fast_learning/single": "evidence/runs/fast_learning/single/20261121-125848-469735",
+  "fast_learning/overlap": "evidence/runs/fast_learning/overlap/20261121-125858-068415",
+  "fast_learning/stop": "evidence/runs/fast_learning/stop/20261121-125910-746755",
+  "fast_learning/lighting": "evidence/runs/fast_learning/lighting/20261121-125921-599281",
+  "small_gate/single": "evidence/runs/small_gate/single/20261121-125931-709206",
+  "small_gate/overlap": "evidence/runs/small_gate/overlap/20261121-125942-996786",
+  "small_gate/stop": "evidence/runs/small_gate/stop/20261121-125956-122871",
+  "small_gate/lighting": "evidence/runs/small_gate/lighting/20261121-130006-713682",
+  "long_retention/single": "evidence/runs/long_retention/single/20261121-130017-726239",
+  "long_retention/overlap": "evidence/runs/long_retention/overlap/20261121-130028-387249",
+  "long_retention/stop": "evidence/runs/long_retention/stop/20261121-130040-192485",
+  "long_retention/lighting": "evidence/runs/long_retention/lighting/20261121-130049-724001"
+}

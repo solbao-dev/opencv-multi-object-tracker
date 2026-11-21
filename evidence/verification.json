@@ -1,0 +1,132 @@
+{
+  "tests_passed": 27,
+  "experiment_runs": [
+    {
+      "name": "baseline/single",
+      "frames": 480,
+      "path": "evidence/runs/baseline/single/20261121-125726-010869"
+    },
+    {
+      "name": "baseline/overlap",
+      "frames": 480,
+      "path": "evidence/runs/baseline/overlap/20261121-125737-521856"
+    },
+    {
+      "name": "baseline/stop",
+      "frames": 480,
+      "path": "evidence/runs/baseline/stop/20261121-125750-496249"
+    },
+    {
+      "name": "baseline/lighting",
+      "frames": 480,
+      "path": "evidence/runs/baseline/lighting/20261121-125801-675568"
+    },
+    {
+      "name": "slow_learning/single",
+      "frames": 480,
+      "path": "evidence/runs/slow_learning/single/20261121-125813-762938"
+    },
+    {
+      "name": "slow_learning/overlap",
+      "frames": 480,
+      "path": "evidence/runs/slow_learning/overlap/20261121-125822-482673"
+    },
+    {
+      "name": "slow_learning/stop",
+      "frames": 480,
+      "path": "evidence/runs/slow_learning/stop/20261121-125831-834330"
+    },
+    {
+      "name": "slow_learning/lighting",
+      "frames": 480,
+      "path": "evidence/runs/slow_learning/lighting/20261121-125839-834806"
+    },
+    {
+      "name": "fast_learning/single",
+      "frames": 480,
+      "path": "evidence/runs/fast_learning/single/20261121-125848-469735"
+    },
+    {
+      "name": "fast_learning/overlap",
+      "frames": 480,
+      "path": "evidence/runs/fast_learning/overlap/20261121-125858-068415"
+    },
+    {
+      "name": "fast_learning/stop",
+      "frames": 480,
+      "path": "evidence/runs/fast_learning/stop/20261121-125910-746755"
+    },
+    {
+      "name": "fast_learning/lighting",
+      "frames": 480,
+      "path": "evidence/runs/fast_learning/lighting/20261121-125921-599281"
+    },
+    {
+      "name": "small_gate/single",
+      "frames": 480,
+      "path": "evidence/runs/small_gate/single/20261121-125931-709206"
+    },
+    {
+      "name": "small_gate/overlap",
+      "frames": 480,
+      "path": "evidence/runs/small_gate/overlap/20261121-125942-996786"
+    },
+    {
+      "name": "small_gate/stop",
+      "frames": 480,
+      "path": "evidence/runs/small_gate/stop/20261121-125956-122871"
+    },
+    {
+      "name": "small_gate/lighting",
+      "frames": 480,
+      "path": "evidence/runs/small_gate/lighting/20261121-130006-713682"
+    },
+    {
+      "name": "long_retention/single",
+      "frames": 480,
+      "path": "evidence/runs/long_retention/single/20261121-130017-726239"
+    },
+    {
+      "name": "long_retention/overlap",
+      "frames": 480,
+      "path": "evidence/runs/long_retention/overlap/20261121-130028-387249"
+    },
+    {
+      "name": "long_retention/stop",
+      "frames": 480,
+      "path": "evidence/runs/long_retention/stop/20261121-130040-192485"
+    },
+    {
+      "name": "long_retention/lighting",
+      "frames": 480,
+      "path": "evidence/runs/long_retention/lighting/20261121-130049-724001"
+    }
+  ],
+  "events_visually_reviewed_with_logs": 30,
+  "event_totals_agree_with_automatic_assistance": true,
+  "python_3_8_syntax_checked_files": 19,
+  "python_runtime_tested": "3.12.14",
+  "opencv_version": "4.13.0",
+  "public_video_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+  "webcam_hardware_tested": false,
+  "measurement_protocol": {
+    "observations": "evidence/visual_observations.csv",
+    "observation_method": "visual_sheet_and_log_review",
+    "automatic_measurement": "evidence/automatic_observations.csv",
+    "id_switch_min_frames": 5,
+    "missing_min_frames": 10,
+    "occlusion_exclusion_fraction": 0.5
+  },
+  "test_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "duration_seconds": 9.661,
+    "result": "OK"
+  },
+  "source_checkout_smoke_test": {
+    "frames": 60,
+    "output_video_frames": 60,
+    "target_absent_detections": 0,
+    "target_present_detections": 20,
+    "source_images_and_videos_regenerated": true
+  }
+}

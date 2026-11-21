@@ -1,0 +1,31 @@
+﻿video,condition,event,start_frame,end_frame,id_switches,failures,method,notes
+single.avi,single,1,61,102,0,0,visual_sheet_and_log_review,A ID1 유지; 4프레임 간격 시트와 로그 확인
+single.avi,single,2,103,144,0,0,visual_sheet_and_log_review,A ID2 유지; 이벤트 간 위치 초기화는 제외
+single.avi,single,3,145,186,0,0,visual_sheet_and_log_review,A ID3 유지
+single.avi,single,4,187,228,0,0,visual_sheet_and_log_review,A ID4 유지
+single.avi,single,5,229,270,0,0,visual_sheet_and_log_review,A ID5 유지
+single.avi,single,6,271,312,0,0,visual_sheet_and_log_review,A ID6 유지
+single.avi,single,7,313,354,0,0,visual_sheet_and_log_review,A ID7 유지
+single.avi,single,8,355,396,0,0,visual_sheet_and_log_review,A ID8 유지
+single.avi,single,9,397,438,0,0,visual_sheet_and_log_review,A ID9 유지
+single.avi,single,10,439,480,0,0,visual_sheet_and_log_review,A ID10 유지
+overlap.avi,overlap,1,61,102,2,0,visual_sheet_and_log_review,F85-89 A ID1->2 및 B ID2->1 지속; A 50% 이상 가림 제외
+overlap.avi,overlap,2,103,144,2,0,visual_sheet_and_log_review,F127-131 A ID1->2 및 B ID2->1 지속; 가림 제외
+overlap.avi,overlap,3,145,186,2,0,visual_sheet_and_log_review,F169-173 분리 후 A ID2 및 B ID1 지속; 합쳐진 박스만으로 정체성을 판단하지 않음
+overlap.avi,overlap,4,187,228,2,0,visual_sheet_and_log_review,F211-215 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,5,229,270,2,0,visual_sheet_and_log_review,F253-257 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,6,271,312,2,0,visual_sheet_and_log_review,F295-299 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,7,313,354,2,0,visual_sheet_and_log_review,F337-341 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,8,355,396,2,0,visual_sheet_and_log_review,F379-383 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,9,397,438,2,0,visual_sheet_and_log_review,F421-425 A ID2 및 B ID1 지속; 가림 제외
+overlap.avi,overlap,10,439,480,2,0,visual_sheet_and_log_review,F463-467 A ID2 및 B ID1 지속; 가림 제외
+stop.avi,stop,1,61,144,1,1,visual_sheet_and_log_review,F88-97 미검출 10연속; F122-126 ID1->3 확인
+stop.avi,stop,2,145,228,1,1,visual_sheet_and_log_review,F162-171 미검출 10연속; F206-210 ID4->6 확인
+stop.avi,stop,3,229,312,1,1,visual_sheet_and_log_review,F246-255 미검출 10연속; F290-294 ID7->9 확인
+stop.avi,stop,4,313,396,1,1,visual_sheet_and_log_review,F330-339 미검출 10연속; F374-378 ID10->12 확인
+stop.avi,stop,5,397,480,1,1,visual_sheet_and_log_review,F414-423 미검출 10연속; F458-462 ID13->15 확인
+lighting.avi,lighting,1,61,144,0,1,visual_sheet_and_log_review,F89-98 화면 전체 박스는 A에 대한 올바른 검출 아님; 복구 후 ID1 유지
+lighting.avi,lighting,2,145,228,0,0,visual_sheet_and_log_review,ID3 유지; 밝은 배경 반복 학습 효과; 짧은 왜곡은 있음
+lighting.avi,lighting,3,229,312,0,0,visual_sheet_and_log_review,ID4 유지; 10연속 대상 누락 없음
+lighting.avi,lighting,4,313,396,0,0,visual_sheet_and_log_review,ID5 유지; 10연속 대상 누락 없음
+lighting.avi,lighting,5,397,480,0,0,visual_sheet_and_log_review,ID6 유지; 10연속 대상 누락 없음

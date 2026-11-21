@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+outputs/
+data/external/
+*.egg-info/
+.env
+.DS_Store
+# 개인 학습 자료
+/private/
+# 공개 문서는 분석 보고서와 검증 문서로 제한
+/docs/*
+!/docs/analysis-report.md
+!/docs/verification.md
+# 과제 원문
+/opencv-multi-object-tracker.md
+/opencv-multi-object-tracker.pdf
+/opencv-multi-object-tracker.pdf.pdf
+# 재생성 가능한 대용량 영상
+data/demo/*.avi
+evidence/**/annotated.avi

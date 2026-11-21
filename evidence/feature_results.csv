@@ -1,0 +1,6 @@
+﻿condition,reference_keypoints,frame_keypoints,matched_keypoints,inliers,match_rate_percent,detected
+front,1191,1205,765,764,64.23,True
+rotation_30,1191,1200,542,532,45.51,True
+rotation_60,1191,1200,550,535,46.18,True
+occlusion_30,1191,1200,498,495,41.81,True
+occlusion_50,1191,1183,219,215,18.39,True

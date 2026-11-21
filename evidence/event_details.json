@@ -1,0 +1,584 @@
+[
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 1,
+    "start": 61,
+    "end": 102,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 2,
+    "start": 103,
+    "end": 144,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 3,
+    "start": 145,
+    "end": 186,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 4,
+    "start": 187,
+    "end": 228,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 5,
+    "start": 229,
+    "end": 270,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 6,
+    "start": 271,
+    "end": 312,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 7,
+    "start": 313,
+    "end": 354,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 8,
+    "start": 355,
+    "end": 396,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 9,
+    "start": 397,
+    "end": 438,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 10,
+    "start": 439,
+    "end": 480,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 1,
+    "start": 61,
+    "end": 102,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 85,
+        "confirmed": 89,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 85,
+        "confirmed": 89,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 2,
+    "start": 103,
+    "end": 144,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 127,
+        "confirmed": 131,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 127,
+        "confirmed": 131,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 3,
+    "start": 145,
+    "end": 186,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 167,
+        "confirmed": 171,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 169,
+        "confirmed": 173,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 4,
+    "start": 187,
+    "end": 228,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 209,
+        "confirmed": 213,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 211,
+        "confirmed": 215,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 5,
+    "start": 229,
+    "end": 270,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 251,
+        "confirmed": 255,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 253,
+        "confirmed": 257,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 6,
+    "start": 271,
+    "end": 312,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 295,
+        "confirmed": 299,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 295,
+        "confirmed": 299,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 7,
+    "start": 313,
+    "end": 354,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 337,
+        "confirmed": 341,
+        "old": 1,
+        "new": 2
+      },
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 337,
+        "confirmed": 341,
+        "old": 2,
+        "new": 1
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 8,
+    "start": 355,
+    "end": 396,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 378,
+        "confirmed": 382,
+        "old": 2,
+        "new": 1
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 379,
+        "confirmed": 383,
+        "old": 1,
+        "new": 2
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 9,
+    "start": 397,
+    "end": 438,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 420,
+        "confirmed": 424,
+        "old": 2,
+        "new": 1
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 421,
+        "confirmed": 425,
+        "old": 1,
+        "new": 2
+      }
+    ]
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 10,
+    "start": 439,
+    "end": 480,
+    "id_switches": 2,
+    "failures": 0,
+    "excluded_object_frames": 2,
+    "details": [
+      {
+        "kind": "switch",
+        "object": "B",
+        "start": 462,
+        "confirmed": 466,
+        "old": 2,
+        "new": 1
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 463,
+        "confirmed": 467,
+        "old": 1,
+        "new": 2
+      }
+    ]
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 1,
+    "start": 61,
+    "end": 144,
+    "id_switches": 1,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 88,
+        "confirmed": 97
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 122,
+        "confirmed": 126,
+        "old": 1,
+        "new": 3
+      }
+    ]
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 2,
+    "start": 145,
+    "end": 228,
+    "id_switches": 1,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 162,
+        "confirmed": 171
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 206,
+        "confirmed": 210,
+        "old": 4,
+        "new": 6
+      }
+    ]
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 3,
+    "start": 229,
+    "end": 312,
+    "id_switches": 1,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 246,
+        "confirmed": 255
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 290,
+        "confirmed": 294,
+        "old": 7,
+        "new": 9
+      }
+    ]
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 4,
+    "start": 313,
+    "end": 396,
+    "id_switches": 1,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 330,
+        "confirmed": 339
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 374,
+        "confirmed": 378,
+        "old": 10,
+        "new": 12
+      }
+    ]
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 5,
+    "start": 397,
+    "end": 480,
+    "id_switches": 1,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 414,
+        "confirmed": 423
+      },
+      {
+        "kind": "switch",
+        "object": "A",
+        "start": 458,
+        "confirmed": 462,
+        "old": 13,
+        "new": 15
+      }
+    ]
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 1,
+    "start": 61,
+    "end": 144,
+    "id_switches": 0,
+    "failures": 1,
+    "excluded_object_frames": 0,
+    "details": [
+      {
+        "kind": "failure",
+        "object": "A",
+        "start": 89,
+        "confirmed": 98
+      }
+    ]
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 2,
+    "start": 145,
+    "end": 228,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 3,
+    "start": 229,
+    "end": 312,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 4,
+    "start": 313,
+    "end": 396,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 5,
+    "start": 397,
+    "end": 480,
+    "id_switches": 0,
+    "failures": 0,
+    "excluded_object_frames": 0,
+    "details": []
+  }
+]

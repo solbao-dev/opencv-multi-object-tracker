@@ -1,0 +1,18 @@
+{
+  "source": "data/demo/overlap.avi",
+  "target": "data\\target.png",
+  "output": "evidence\\runs\\fast_learning\\overlap",
+  "learning_rate": 0.1,
+  "min_area": 400,
+  "max_distance": 70,
+  "max_missed": 15,
+  "warmup_frames": 30,
+  "width": 640,
+  "headless": true,
+  "save_video": false,
+  "show_mask": false,
+  "max_frames": null,
+  "source_fps": 20.0,
+  "opencv_version": "4.13.0",
+  "frame_base": 1
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 1,
+    "start": 61,
+    "end": 102
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 2,
+    "start": 103,
+    "end": 144
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 3,
+    "start": 145,
+    "end": 186
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 4,
+    "start": 187,
+    "end": 228
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 5,
+    "start": 229,
+    "end": 270
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 6,
+    "start": 271,
+    "end": 312
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 7,
+    "start": 313,
+    "end": 354
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 8,
+    "start": 355,
+    "end": 396
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 9,
+    "start": 397,
+    "end": 438
+  },
+  {
+    "video": "single.avi",
+    "condition": "single",
+    "event": 10,
+    "start": 439,
+    "end": 480
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 1,
+    "start": 61,
+    "end": 102
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 2,
+    "start": 103,
+    "end": 144
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 3,
+    "start": 145,
+    "end": 186
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 4,
+    "start": 187,
+    "end": 228
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 5,
+    "start": 229,
+    "end": 270
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 6,
+    "start": 271,
+    "end": 312
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 7,
+    "start": 313,
+    "end": 354
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 8,
+    "start": 355,
+    "end": 396
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 9,
+    "start": 397,
+    "end": 438
+  },
+  {
+    "video": "overlap.avi",
+    "condition": "overlap",
+    "event": 10,
+    "start": 439,
+    "end": 480
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 1,
+    "start": 61,
+    "end": 144
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 2,
+    "start": 145,
+    "end": 228
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 3,
+    "start": 229,
+    "end": 312
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 4,
+    "start": 313,
+    "end": 396
+  },
+  {
+    "video": "stop.avi",
+    "condition": "stop",
+    "event": 5,
+    "start": 397,
+    "end": 480
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 1,
+    "start": 61,
+    "end": 144
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 2,
+    "start": 145,
+    "end": 228
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 3,
+    "start": 229,
+    "end": 312
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 4,
+    "start": 313,
+    "end": 396
+  },
+  {
+    "video": "lighting.avi",
+    "condition": "lighting",
+    "event": 5,
+    "start": 397,
+    "end": 480
+  }
+]
