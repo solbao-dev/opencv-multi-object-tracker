@@ -164,7 +164,7 @@ opencv-multi-object-tracker/
 
 ID Switch는 다른 ID가 5프레임 이상 지속된 경우, 긴 누락은 대상이 보이는데 10프레임 이상 올바른 검출이 없는 경우로 셌다. 50% 이상 가린 물체 프레임은 누락 평가에서 제외했다. 실패 이벤트율의 분모는 전체 이벤트 수다.
 
-겹침에서는 10회 모두 두 물체의 ID가 교환됐다. 긴 누락 구간이 0이어도 정체성 연결은 틀릴 수 있으므로 두 지표를 함께 봐야 한다. 학습률 3종, 거리/누락 규칙 변경과 ORB 회전·가림 실험은 [분석 보고서](docs/analysis-report.md)에 정리했다. 실제 공개 보행자 영상은 별도 기능 점검에 사용했다.
+겹침에서는 10회 모두 두 물체의 ID가 교환됐다. 긴 누락 구간이 0이어도 정체성 연결은 틀릴 수 있으므로 두 지표를 함께 봐야 한다. 학습률 3종, 모폴로지 커널 크기 비교, 거리/누락 규칙 변경과 ORB 회전·가림 실험은 [분석 보고서](docs/analysis-report.md)에 정리했다. 실제 공개 보행자 영상은 별도 기능 점검에 사용했다.
 
 ### 재현과 프레임 관찰
 
@@ -182,6 +182,7 @@ python -m tools.review_events --condition overlap
 | [tracking_results.csv](evidence/tracking_results.csv) | 5설정 × 4조건 집계 |
 | [visual_observations.csv](evidence/visual_observations.csv) | 프레임 시트·로그를 대조한 이벤트별 관찰 |
 | [automatic_observations.csv](evidence/automatic_observations.csv) | 합성 정답 좌표 기반 보조 계측 |
+| [morphology_results.json](evidence/morphology_results.json) | 맥 보충 실험의 커널 5조합 × 2영상 결과 (`python -m tools.measure_morphology`로 재현) |
 | [feature_results.csv](evidence/feature_results.csv) | ORB 조건별 매칭점·inlier·매칭률 |
 | [검증 환경과 범위](docs/verification.md) | 테스트, 실제 영상과 GUI 점검 |
 
@@ -194,5 +195,5 @@ OpenCV와 NumPy, Python 표준 라이브러리로 구성했다. 딥러닝 탐지
 ## 문서와 참고 자료
 
 - [분석 보고서](docs/analysis-report.md) · [검증 환경과 재현 방법](docs/verification.md)
-- [데이터 출처](docs/analysis-report.md#10-데이터-출처)
+- [데이터 출처](docs/analysis-report.md#11-데이터-출처)
 - OpenCV 공식 문서: [배경 차분](https://docs.opencv.org/4.13.0/d1/dc5/tutorial_background_subtraction.html), [ORB](https://docs.opencv.org/4.13.0/d1/d89/tutorial_py_orb.html), [특징점 매칭](https://docs.opencv.org/4.13.0/dc/dc3/tutorial_py_matcher.html), [Homography](https://docs.opencv.org/4.13.0/d1/de0/tutorial_py_feature_homography.html)
